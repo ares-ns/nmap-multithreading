@@ -2,8 +2,9 @@
 Launch multithreading nmap' scans
 
 ## Notes
+It requires Nmap and I suggest to use version > 7.81.
 
-It requires Nmap version > 7.81; to install it, I suggest to use:
+To install it:
 
 ``` shell
 sudo snap install nmap      # most recent version is 7.92
