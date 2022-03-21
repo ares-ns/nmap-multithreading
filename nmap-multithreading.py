@@ -7,7 +7,7 @@ from queue import Queue
 
 def check_root_uid():
     if os.getuid() != 0:
-        exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'. E>
+        exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'.")
 
 def host_discovery():
     print("Thread 1:\tDiscovery host by CIDR\n")
